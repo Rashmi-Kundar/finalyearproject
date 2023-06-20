@@ -1,0 +1,39 @@
+.homerow {
+  padding: 10px;
+  height: 60vh;
+  background-image: url("../images/mainimage.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(50%);
+}
+.homerow .homecol {
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  color: white;
+}
+.homerow .homecol .bigtext {
+  animation-name: slidetext;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  font-size: 4rem;
+}
+.homerow .homecol .bigtext .greentext {
+  color: rgb(13, 234, 131);
+}
+
+.secondrow {
+  padding: 10px;
+}
+.secondrow .secondrowchilds .recheadings {
+  color: rgb(37, 67, 87);
+}
+
+@media screen and (max-width: 800px) {
+  .bigtext {
+    color: red;
+    font-size: 1.5rem !important;
+  }
+}/*# sourceMappingURL=home.css.map */

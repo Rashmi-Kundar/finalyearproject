@@ -1,0 +1,42 @@
+.homerow {
+  padding: 10px;
+  height: 60vh;
+
+  background-image: url("../images/mainimage.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  filter: brightness(50%);
+  .homecol {
+    backdrop-filter: blur(1px);
+    color: white;
+    .bigtext {
+      animation-name: slidetext;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease;
+      font-size: 4rem;
+      .greentext {
+        color: rgb(13, 234, 131);
+      }
+    }
+  }
+}
+
+.secondrow {
+  padding: 10px;
+  .secondrowchilds {
+    .recheadings {
+      color: rgb(37, 67, 87);
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bigtext {
+    color: red;
+    font-size: 1.5rem !important;
+  }
+}

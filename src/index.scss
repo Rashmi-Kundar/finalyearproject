@@ -1,0 +1,13 @@
+@import "./commonstyles/_common.scss";
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: $fontFamily;
+}
+
+@media only screen and (max-width: 700px) {
+  .bigtext {
+    font-size: 1.4rem;
+  }
+}
