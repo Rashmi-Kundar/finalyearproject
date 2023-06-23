@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
 $fontFamily: "Noto Sans", sans-serif;
-
+$height: calc(100vh - 123.6px);
 $logofont: "Tilt Prism", cursive;
 
+@mixin button() {
+  margin: 10px 0px;
+}
 @keyframes slidetext {
   0% {
     transform: translateX(-500px);
